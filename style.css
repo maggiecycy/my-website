@@ -210,3 +210,17 @@ a { color: inherit; text-decoration: none; }
     text-align: center;
     padding: 20px 0;
 }
+
+.dropcap {
+    float: left;
+    font-size: 2em; /* 首字母放大 */
+    font-weight: bold;
+    line-height: 1;
+    margin-right: 6px;
+    color: var(--dark); /* 或自定义深色 */
+}
+.content p {
+    color: var(--dark);
+    text-align: left; /* 默认左对齐更易读 */
+    margin-bottom: 1em;
+}
